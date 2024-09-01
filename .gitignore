@@ -1,0 +1,39 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+.terraformrc
+.terraform.d/
+*.log
+
+# Azure CLI configuration
+azureProfile.json
+msal_token_cache.bin
+msal_cache.json
+
+# Kubernetes configuration
+kubeconfig
+.kube/
+.kube/config
+
+# Sensitive files
+*.pem
+*.key
+*.p12
+*.cer
+*.jks
+
+# Generated output
+output/
+
+# Other sensitive or environment-specific files
+.env
+.envrc
+.venv
